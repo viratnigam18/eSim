@@ -208,13 +208,49 @@ A safe, read-only system diagnostic helper was built to inspect environment prer
 
 ---
 
-## 10. Conclusion
+## 10. Conclusion & Readiness Assessment
 
 All confirmed installer defects (H-01, H-02, H-03/LLVM 18, EOL repository handling, syntax errors, line ending corruptions, and virtualenv isolation flaws) have been resolved with minimal, safe Bash modifications. Upstream architecture has been preserved, data safety protections enforced, and documentation strictly reconciled with actual test results.
 
+**Readiness Assessment**: The codebase modifications, unit test suite, and static checks are complete, verified, and ready for push to the official fork. However, full end-to-end Ubuntu 25.04 integration testing (including clean package installation, live GHDL compilation, and graphical GUI launch) remains incomplete and is preserved under **BLOCKED** status pending execution in a dedicated root-privileged Ubuntu 25.04 VM environment.
+
 ---
 
-## 11. References
+## 11. Official Submission Details & Email Template
+
+As specified in the FOSSEE screening requirements, submission must be emailed to the eSim team:
+
+* **To**: `contact-esim@fossee.in`
+* **Subject**: `eSim Semester Long Internship - Autumn 2026 Submission Task 4`
+* **Forked Repository**: [https://github.com/viratnigam18/eSim](https://github.com/viratnigam18/eSim)
+* **Branch**: `installers`
+* **Report Link**: [https://github.com/viratnigam18/eSim/blob/installers/docs/REPORT.md](https://github.com/viratnigam18/eSim/blob/installers/docs/REPORT.md)
+
+### Submission Email:
+```text
+To: contact-esim@fossee.in
+Subject: eSim Semester Long Internship - Autumn 2026 Submission Task 4
+
+Dear FOSSEE eSim Team,
+
+I am submitting my work for the Screening Task 4 - eSim Upgradation.
+
+Project: eSim 2.5 Installation and Dependency Issue Investigation on Ubuntu 25.04
+GitHub Fork: https://github.com/viratnigam18/eSim.git
+Branch: installers
+Report Link: https://github.com/viratnigam18/eSim/blob/installers/docs/REPORT.md
+
+I investigated the installation issues, documented the observed behaviour and fixes, and included the corresponding code, non-destructive data-safety protections, and test evidence in the repository. The report distinguishes reproduced issues from static observations and environment-blocked tests.
+
+Thank you for your consideration.
+
+Regards,
+VIRAT NIGAM
+```
+
+---
+
+## 12. References
 
 1. FOSSEE eSim Project: [https://esim.fossee.in](https://esim.fossee.in)
 2. FOSSEE/eSim Git Repository: [https://github.com/FOSSEE/eSim](https://github.com/FOSSEE/eSim)
