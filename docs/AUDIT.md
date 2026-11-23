@@ -12,7 +12,7 @@
 
 * **Current Branch**: `installers`
 * **Upstream**: `https://github.com/FOSSEE/eSim.git`
-* **Origin (Fork)**: `https://github.com/viratnigam18/esim-fosse.git`
+* **Origin (Fork)**: `https://github.com/viratnigam18/eSim.git`
 * **Latest Upstream Commit**: `a77d6b9` (*Merge pull request #414 from muaviz/installers - Add support for Ubuntu 25.04 in installer script*)
 * **Pre-existing User Changes**: None detected on initial checkout; working tree clean.
 

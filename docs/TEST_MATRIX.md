@@ -49,8 +49,8 @@ For FOSSEE mentors and evaluators running an isolated Ubuntu 25.04 VM:
 
 ```bash
 # 1. Clone repository on installers branch
-git clone --branch installers https://github.com/viratnigam18/esim-fosse.git
-cd esim-fosse
+git clone --branch installers https://github.com/viratnigam18/eSim.git
+cd eSim
 
 # 2. Run diagnostic tool before installation
 python3 tools/esim_diagnostics.py

@@ -26,8 +26,8 @@ For detailed engineering reports and verification results on Ubuntu 25.04, refer
 
 ```bash
 # Clone the repository on the installers branch
-git clone --branch installers https://github.com/viratnigam18/esim-fosse.git
-cd esim-fosse
+git clone --branch installers https://github.com/viratnigam18/eSim.git
+cd eSim
 
 # Run the installer entry point
 ./Ubuntu/install-eSim.sh --install

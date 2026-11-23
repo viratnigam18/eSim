@@ -3,10 +3,10 @@
 
 * **Candidate Name**: VIRAT NIGAM
 * **GitHub Profile**: [viratnigam18](https://github.com/viratnigam18)
-* **Forked Repository**: [viratnigam18/esim-fosse](https://github.com/viratnigam18/esim-fosse)
+* **Forked Repository**: [viratnigam18/eSim](https://github.com/viratnigam18/eSim)
 * **Target Branch**: `installers`
 * **Base Upstream Commit**: `a77d6b9` (*Merge pull request #414 from muaviz/installers*)
-* **Submission Date**: 20 November 2026
+* **Submission Date**: 23 November 2026
 
 ---
 
